@@ -1,0 +1,43 @@
+---
+title: Week 1
+published_at: 2025-08-02
+snippet:
+disable_html_sanitization: true
+allow_math: true
+---
+
+# Reflection
+
+This week introduced sound as an emotional and perceptual experience that can guide interpretation and narrative. I was particularly interested in the exercise which played a score and we had to guess what the intended purpose was. I wrote it as a somber feeling mixed with hope, like an anticipation for something better when everything is wrong. It was nice to hear everyones perceptions of what they heard because they were geared towards the same sound, but different answers. It was very impressive when someone got the exact answer, I think that attests to how well the sound design was made for it.
+
+The Four Ways of Knowing stood out, especially participatory knowing (the knowing of feeling what it is like to be in an experience). Feeling what its like to be in a situation is very important with creating sound design (especially for films or games), even if youve never been in that situation yourself. Although it didn't just underline the importance to me, it also made me start thinking more about how the role of sound can be important for audiences to participate more emotionally to a piece of media. A lot of my personal projects with sound design have been very focused on realism, but I never really thought to consider exactly what I am aiming for with it. Am I trying to establish realism to make the visual space more believeable and draw attention to it? Am I trying to create certain emotions for things that haven't happened on screen? The video shown about how sound can change someones perception of visual media also led me to think more about it. A moment I found interesting was where it explained how sound could shift viewer attention, and how people change where they look on the screen based on what they can hear. I never really put 2 and 2 together that since I can hint towards something sonically, that would change how people perceive the visual media, thus changing where they look, maybe anticipating something. I just thought that was very interesting that sound can also be a tool to guide visual perception.
+
+# Research
+
+### Academic
+
+I was inspired by how sound could influence perception, and I ended up reading this article by Claudia Gorbman (Narrative Film Music), which just talks about how music can guide how people interpret narrative meaning. She talked specifically about 'unheard melodies' which is basically just how music can support narrative meaning in a subtle way, ways that the listener wont really realize unless thinking about it. It tied really nicely to what we learnt in class. I also went back to this previous paper that I had read previously by Chion. He discussed how audio could reflect on visual media in different ways, and how you use it is critical. For example, a disconnect in the music can create uneasy tension that adds complexity to the visuals, making something once seen as normal, into an underlaying feeling of tension.
+
+### Artistic
+
+I started to look more deeply into music and emotions tying together, listening to my favorite songs and analysing what musically makes me love them so much. A specific example is Let Down by Radiohead. Or any radiohead song in general. The way that they build atmosphere, the experimental sound, the guiding structure, its moody, its spacey. Even i'm not 100% sure the technical reasons of why it makes people feel so much. There was a YouTube video I watched (https://www.youtube.com/watch?v=PX2hQdcEvyA) that I think explained it perfectly, and why it's so good alongside visual media. The use of harmony, texture, mood, rhythm. I think its refreshing considering a lot of songs nowadays follow certain formulas, but that's a completely different topic that I could go into.
+
+# Technical
+
+Because of the Gina Moore assignment, i did a lot of research on how to use Ableton Live, which is my daw of choice. Experimenting with automation and how to make glitches were the highlights. Although I've done it automation before, I haven't done it extensively. The more I did it the more shocked I was of how it made a difference, especially because if I wanted a sound to go away, I just cut it out, but having it play soft in the background added that weight I always felt was missing from my sound projects. Learning different ways to make glitching sounds was really fun. I layered effects like pitch shifting, grain delay and reverb and then used automation to create sudden cuts, fade ins and randomized movement, which helped me achieve that glitch texture I was looking for.
+
+Other than Ableton Live, I actually learnt how to compose a simple orchestra piece for this assignment. I recognize that scores aren't my strong suit and I wanted to do something that challenged me, especially since the animation I chose was around 30 seconds, so I didn't have to make it too long. I watched this video (https://www.youtube.com/watch?v=ZdhdC2wx2Ew) which was actually extremely helpful and I learnt many new things. I thought the violin and viola were basically the same intstrument before this! It was interesting how different instruments in brass, woodwind and strings could play the same thing and it gave off different emotions and different vibes, even though they were in the same frequency spectrum. I particuarly liked the hack of making everything on a simple piano, then assigning it to different instruments, I definitely think it helped with my workflow as I started focusing more on chords and notes and why I wanted to press those, rther than being stuck figuring everything all out at once. I would highly reccommend that video to anyone looking at how to start with orchestral writing.
+
+# Progress Report
+
+I began by choosing the animation I wanted, then thinking about what direction I wanted to go with. This will be written on my report but I originally started with a realistic approach but felt that the animation was too abstract, and wanted something to fit with that, which is why I chose to do a musical score. Of course as mentioned before, I chose to do an orchestral piece because of my nonexistent experience. Before watching the video I made the mistake of just jumping straigh into, which resulted in a terrible score. I just did chords and was playing random lead lines within the key, but it sounded terrible:
+
+My composition improved greatly after I watched the video. I started with a rough piano roll and kept refining it until I had a sound and structure I liked which consisted of a lead, a second lead, chords and a bass which was all I needed!
+
+From this I made different groups of the main struments of strings, and assigned the different parts appropriately. The plugin I used was BBC's expressive strings, it was super great and useful and free!
+
+then i did the same for brass, using similar mapping techniques to fill out the orchestration
+
+and then woodwinds.
+
+after that it was just a matter of using automation to create structure! Then the sound design was finished! Originally it took up the entire time, but when I decided that the glitches would turn it into synths, I cut the midi short. I used a bunch of random effects tomake the glitch sounds as I mentioend earlier, and then to transition, I layered a abunch of the elad lines with different sounds and textures to lead into the glitchiness, but also give it some melodic strucutre so the change wasn't too jarring! This completed my first draft and I'm still refining, but I have a structure I like and an idea I like so I am happy.
