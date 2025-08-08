@@ -12,20 +12,74 @@ h1 {
   margin-bottom: 40px;
 }
 
-.week-box {
+/* Details acts like the old .week-box card */
+details.week {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-  padding: 25px;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
+/* Summary = header row with left title + right arrow */
+details.week > summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  cursor: pointer;
+  list-style: none;
+  outline: none;
+}
+details.week > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Arrow */
+details.week > summary::after {
+  content: "▸";
+  transition: transform 0.2s ease;
+}
+details.week[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+/* Inner content area */
+.week-content {
+  padding: 0 25px 25px;
+}
+
+/* Keep your image styling */
 img {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 20px auto;
   border-radius: 8px;
-  max-height: 400px; /* limits height if image is really tall */
+  max-height: 400px;
   object-fit: contain;
+}
+
+/* Nice small fade on open */
+.week-content {
+  animation: fadeIn 0.2s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .week-content {
+    animation: none;
+  }
+  details.week > summary::after {
+    transition: none;
+  }
 }
