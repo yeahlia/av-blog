@@ -2637,8 +2637,234 @@
       </p>
     </div>
   </details> 
-  </body>
+
+<!-- ------------------------------------ WEEK 12 ---------------------------------------------- -->
+
+<details class="week" id="week-4">
+    <summary>Week </summary>
+    <div class="week-content">
+      <h3>Academic Research</h3>
+      <p>
+        Since this is the last week of class, I have basically moved into the refinment phase in all my projects! I researched how play testing and iteration 
+        can guide improvements in both design and suond. Fullerton has a article that discusses playtesting specifically, and how it is not supposed to be just 
+        a polishing step, but it should be designed as a feedback driven process that can reveal a lot about how palyers actually perceieve certain mechanics, 
+        pacing and atmosphere. She explaisn that repeated testing throughout the project lets the developers discover player responses that they don't expect, 
+        as well as see how they react to certain things or do things a certain way and adjust accordingly. I really kept this in mind throughout making the Fired 
+        Before Hired game, because there were multiple things I would have missed if I didn't ask someone else to try something. This is why I had multiple testing 
+        phases for the game, and will have another one this weekend. 
+        <br><br>
+        Even though this specifically talks about game design, I realize how important it also is for things that aren't interactive. Seeing what people focus on 
+        in video, their reactions, what they focus on hearing, they can show how I can improve my sound design for my animations as well. Things like foley layers 
+        being too soft are things I would have never known simply because I knew it was there, so I could hear it. But it could be differnt for someone who is listening 
+        to it for the first time. Iterative refinement is super important and will be something I consistently implement in my future projects, and wish that I had 
+        done more of that for these projects. I did do the drafts but I didn't always have a feedback-driven session for each one of them, and if I did, maybe didn't 
+        ask the right questions for it.
+        <br>
+        <br>
+        I also looked into Collins' work again to learn more about what to consider when implementing audio systems in interactive media. It highlights the importance 
+        of reacting to player input in real time while remaining coherent with gameplay goals. Good game audio must respond dynamically to context rather than 
+        following a linear timeline, making it more interesting, but also more difficult to execute. This was directly relevant to the audio systems I was coding 
+        in Unity and I needed to find a way to make sure that sounds could overlap, fade and randomize smoothlly without the players noticing. Perceptual believability 
+        stood out to me, which is basically just how player interpret sound rather than how real it is. It reinforced my decisions around timing, amplitude and even 
+        which audio clips played for each sound.
+      </p>
+      <h3>Artistic Research</h3>
+      <p>
+        For this weeks artistic research/inspiration, I looked at Silent Hill F, because I am currently playing through it right now! One of the first things I immediately 
+        noticed when playing that game was how good the sound was. I am not sure if it' because I am more aware about sound and their choices and effects because of this 
+        course, but it was something that stood out to me immediately. The way that the sound was panned in my headphones felt so immersive, and I noticed myself wanting to 
+        pause or take my headphones off because I was getting way too immersed and wanted to break it because I kept screaming and waking my family up (I was playing at the 
+        middle of the night). Anyways that's pretty irrelevent, I just wanted to say that it was super good. 
+        <br>
+        <br>
+        Thinking about it, it uses spatial audio, texture and also restraint to constantly shift the focus from extreme closeness to distant echoes. Doing this made those 
+        jumps feel so big, I felt the breathing behind my neck when there was someone behind me, as well as the empty atmosphere of the abandoned town. The subtle animation 
+        and EQ made the ambience feel so alive and the reverb tail constantly evolves, so even in the quiet moments, there was never any total silence, but it definitely felt 
+        like it. One of the things that I noticed was during the cutscenes, there would be wind playing, and then suddenly the wind transforms into like a low drone that is used 
+        for jumpscares and it was super immersive because I didn't notice the change, but I felt that there was one happening, like I could predict the jumpscare happening. Basically 
+        everything about it just reenforced things that I already knew, but to a much bigger scale. It showed me that even though I know what they are doing and the effects 
+        of it, I still have so much left to improve on with it to reach that kind of level.
+        <br>
+        <br>
+        Because of that, I also decided to look into the indie game 'Celeste'. I wanted to compare how the sound from a super popular A level game, differs from an indie game 
+        that had a much lower budget, and how they are both at the same level of popularness among gamers. Since it's a different genre of game it's also a pretty hard comparison 
+        but in general, Celeste is very music heavy, without piano textures and pads shifting dynamically as the player progresses. What struck me the most interesting was 
+        how each area's theme evolved. Similar to other level based games, each area's melodies subtly changed as the player climbs/progresses, showing the progress and also struggle 
+        as it gets more intense.In interviews, the developer talked about composing with emotional momentum and ensuring taht every piece felt personal rather than procedural. 
+        This approach was able to capture the player's innter experience and matches the heart and tone of the work, rather than just the technical aspect. It was nice to see 
+        how something other than horror/thriller can still have the same base goal of achieving the emotion of the world that is being created. 
+      </p>
+      <h3>Technical Research</h3>
+      <p>
+        This weeks technical reserach was mainly about Unity. Everything about it. From beginner tutorials to advanced tutorials about sound. I started off with just skimming 
+        through the beginner tutorials so I could get around and play scenes and make changes and things like that. That was pretty easy to get the hold of. Then 
+        I started too watch the beginner Unity audio tutorials. It was super easy to follow actually and just talked about how audio is played in Unity and the different types. 
+        This was particularly useful as there were a few different types of audio that I wanted to have (background sound, sound based on states, player sounds, etc.) It briefly talked 
+        about how that worked and I was able to get a grasp on it pretty quickly!
+        <br>
+        <br>
+        The next and main thing was creating audio managers in Unity. It was basically just code that you write that effects how sound is played through, the parameters, when it plays 
+        and stuff like that. But the main difference is that you can basically do anything in it as long as you know how to code it. I followed this tutorial that talks about how 
+        to create a reusable audio manager system. A system where you write the code and what it will do, but basically leave the audio actually blank, and you can drag and drop what 
+        audio you want to play with that. So I could basically copy and paste that script and use it for another project as it doesn't have any audio files attached to it! This tutorial 
+        was super useful and I coded everything with that base. It also went through how to call the functions and methods to make things actually play, as well as how to make sliders that 
+        effect parameters like pitch and stuff, so I wouldn't have to go inside the script everytime I wanted to change how loud an audio plays, etc.!
+        <br>
+        <br>
+        There was another specific one about UI and background music that I followed! It basically just watched hover states and was something along the lines of "If button has hoverstate:true, then play 
+        this audioclip"! Then it was the same for the click state and things like that. I think that since I have a lot of background with coding it was super easy to pick up, but just 
+        learning the new language was a bit tough. I think in th future I want to learn how to use middleware like Wwise or FMOD to really focus on the audio aspect of it! 
+
+        <br>
+        <br>
+        There were way more things that I learned but I don't want to bore you with explaining all the code! Just know I found it super interesting and fun to learn about!
+      </p>
+      <h3>Progress Report</h3>
+      <p>
+        Now we are finlly at this last week! I wasn't able to do much of the animations in this last week because the animators are still working hard
+        on their project. But I did finish Fired Before Hired! Keep in mind that everything that had to do with coding and Unity took me HOURS and I have 
+        greatly summarized what happened but I was no where near this calm and it did not go this smoothly.
+        <br>
+        <br>
+        From last time I recorded everything but I didn't put much of them on my DAW. I did that this week as well as editing to give
+        it a bit of EQ and reverb to make it come to life. I will probably add a bit of reverb in Unity code itself as well. So firstly,
+        I actually planned out what I wanted for each sound. I'm going to try my best to explain what I wanted with an example. For example,
+        for the sword sound, it consists of 2 main sounds, the woosh/swing and the metallic sound. I wanted to create an array for both sounds 
+        that hold multiple variations that it could choose from. Then with Unity, I could also randomize say the pitch by 1-2 cents up, as 
+        well as the volume, etc. So I would write with the code, sword-swing has 2 elements, choose form the array and randomize these parameters,
+        then play. I wanted this basic concept for everything which is what I wrote here:
+        <img src="photos/week12/list.png" alt="">
+
+        After that I basically lined everything up and make sure it cut properly, as well as can be used with all the other sounds. 
+        I used a mix of whatever I recorded, as well as some from online libraries, especially for the hurt sound and the game over sound. 
+        In terms of effects, I basically just put EQ, compression and a bit of reverb in nearly every single sound. I'll need to add reverb in 
+        the actual game though so it has a tail. 
+
+        <img src="photos/week12/12.1.png" alt="">
+
+        I don't want to put all the photos of everything I did but this is just an overview of the groups:
+
+        <img src="photos/week12/12.5.png" alt="">
+
+        As well as the amount in each of those groups:
+
+        <img src="photos/week12/12.3.png" alt="">
+
+        It has multiple verions of a single sound, as well as other sounds that can come from that player. Exporting that and renaming 
+        everything was such a huge pain but I got there in the end! I just made a big folder that I imported in Unity that you can see here:
+
+        <img src="photos/week12/1.png" alt="">
+
+        I was basically using Unity from the bare minimum that I learnt last year but it was kind of intuitive that I knew what to do. The game 
+        developers had everything named super well so it was easy to find exactly what I needed. Since they also already had existing sound as a 
+        placeholder, it was easy to figure out how to link my own, which is what I did at first, but the code that they used made it super difficult 
+        for me to do my idea of the arrays, so I started from scratch.
+
+        <br>
+        <br>
+        Firstly, I did the menu music. I originally tried to do this thing where I upload 2 different audio clips, it plays the first one (which would be the 
+        intro) and then as soon as that ended, would loop the next one until they get into the atual game. But for some reason there was a pause inbetween 
+        each one and I couldn't for the life of me get rid of it so I created a script alongside this video that I place my full audio in there and I 
+        assign a time where it starts to loop. So basically it will play the intro, then when the entire audio ends (I removed the ending) it starts back again 
+        from where the loop is. You can see part of the code here:
+
+        <img src="photos/week12/2.png" alt="">
+
+        The tutorial I followed showed me how to make my own Audio Manager where I can make the basic script (which I can then also use for future 
+        projects), and in the Unity engine, you can specify what audio clip and other parameters to put in. I used this logic for all the code I did 
+        and basically now I have a bunch of code I can use for other scenarios which is super nice. Anyways this is what that code looked like in Unity, 
+        you can see at the bottom left where I dragged in my clip, and when to start the loop.
+        
+        <img src="photos/week12/3.png" alt="">
+
+        I then made another audio manager but this time it handled the UI. It was basically code that checked the hover/click state of buttons 
+        and assigned an audio clip to them based on it. I had 3 different sounds, one for hover, one for click, and a seperate one for start game.
+
+        <br><br>
+
+        I then started on the audio manager for the sounds in game. I basically did what I told you I wanted earlier, but the script I made sure that 
+        I could re use it. This is what part of the script looked like:
+
+        <img src="photos/week12/4.png" alt="">
+
+        You can see where all the variations are held. I did a few changes and this is what it looked like in the Unity engine:
+
+        <img src="photos/week12/5.png" alt="">
+
+        Basically it has the title of what the type of sound is, you can drag the audio clips inside and add as amny variations as you want, 
+        then you can use the slider to get the minimum and maximum pitch and volume that the audio clip can have! Then inside the script I made multiple 
+        methods that I can call whenever I want, that chooses which sounds pairs with what sound. Super confusing. I then went into the game manager 
+        and put the methods where they need to be put which was pretty easy because again there was the placeholder audio, but there were a lot missing 
+        that I had, like there was no footsteps, furniture sounds, etc. There was basically only audio for the sword and killing, and I kept the original 
+        sound they had for the collection and the dash. 
+
+        <br>
+        <br>
+        I realized that the sounds were all coming from the player with that original code so I altered a bit so that the methods for the enemy sounds 
+        are called per enemy spawned and set max distance so that if you were too far you wouldnt hear them! This solved a lot of the issues where I felt 
+        that there was an overwhelming amount of sound!
+
+        <br>
+        <br>
+
+        Then the last thing I needed to do was the wave sound. This one was actually surprisingly easy to implement, but the actual planning was 
+        so time consuming. I went back into my DAW and renamed the linear progression that I had made, as well as the sections for each wave 
+        which looked like this:
+
+        <img src="photos/week12/6.png" alt="">
+
+       I exported the individual sounds for one bar since everything is a loop anyways and then I wrote a guide of what I was so it was easier for me to code what plays for each wave:
+
+        <img src="photos/week12/7.png" alt="">
+
+        I then did the code and made the functions that defines each wave. Basically everything is playing, but the code decides what layers are 
+        muted and unmuted. I had a few issues especially with the mute and unmute setting button, but surprisingly this was the easiest thing to code!
+
+        <br>
+        <br>
+        So everything I added was, furniture breaks (different for when you walk into it vs when you slash it), sword swing, parry (both when you 
+        hit or miss), enemy death, enemy movement, enemy projectile spawn, player movement, player jump, player hurt,  game end sound, UI sound, main menu music and 
+        wave music. All that was left to do was make sure everything was working together! I did a few play testing with the developers and fixed 
+        the issues that arose (mainly some of the sound would carryt hrough different scenes, there was one where if you mute the audio then leave and 
+        jhoin back it would be playing but still says its muted, stuff like that). Were doing more intense play testing this weekend so we will have 
+        more people trying to look for any bugs in terms of audio!
+
+        <br>
+        <br>
+        After that I did some audio mixing because I just let the audio play at full volume! For the game sound there was already the minimum and maximum 
+        sound slider so that was pretty easy to fix. But in terms of the wave music that actually was pretty difficult. I began going through every single 
+        layer and I had like 20, and was manually adjusting it before I got the idea to just make a volume curve. So I made a method that got lower as the 
+        waves increased! I can set it to different values but I left it at 55%, as I felt like it was a good blend to still have the intensity of the music 
+        but also can hear all the other sound! This is something I might change with later playtesting! Lastly, I added a bit of audio effects manually, like 
+        reverb and delay, to make sure that the sound doesn't just randomly cut out, and it sounds like it is in the space.
+
+        <br>
+        <br>
+        This one was definitely the hardest because I had to learn completely new things but I actually had the most fun with this! I actually went 
+        into sound design so I could potentially be a sound designer for games so knowing that I had fun was actually super relieving for me! And that's done!
+        You can play the game here (but at the time of writing it, the game developer has fully published all the changes) so it may or may not be updated 
+        depending on when it will be published. <a href="https://sekrets.itch.io/fired-before-hired">https://sekrets.itch.io/fired-before-hired</a>
+
+        <br>
+        <br>
+        I also did a few small tweaks for both The Hollow Child! It was mainly just adding sounds to the extra animated scenes if needed, but there 
+        were also a few points of feedback from the last draft! This included lining up the singing to the music, boosting the jumpscare and lowering 
+        the foley volume at the end! Another piece of feedback from that draft was to add a bit of silent parts in the animation. I did this by 
+        removing the singing for the crow and let the music take over the scene. I also automated the wind around it to really get more quiet, then 
+        put it back up for the next scene! The best change I did though was fixing the ghost floating sound. For the previous draft I wasn't a fan of 
+        how it was flowing and was mainly there as a placeholder but it was very obviously out of place, so I made a a way better sound for it! I 
+        reautomated those as well. And that was basically all I did for The Hollow Child as it's basically nearly done, just waiting for the animator to 
+        finish all the scenes for final refinement! 
+
+        <br>
+        <br>
+        You can watch it here: <a href="https://youtu.be/PRlyLOzdAEE">https://youtu.be/PRlyLOzdAEE</a>
+      </p>
+    </div>
+  </details>
+</body>
 </html>
+
 
 
 <!-- ------------------------------------ FUTURE WEEKS TEMPLATE ---------------------------------------------- -->
